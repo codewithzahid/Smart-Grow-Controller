@@ -1,0 +1,17 @@
+sudo dpkg --configure -a
+
+
+#Kiosk Mode
+kiosk_mode:
+  non-admin-settings:
+    kiosk: true
+
+
+kiosk_mode:
+  mobile_settings:
+    hide_header: true
+    hide_sidebar: true
+    ignore_entity_settings: true
+    custom_width: 1320 # Set this to the max width (or slightly higher) then the width of your tablet
+
+# Views
